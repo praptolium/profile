@@ -1,0 +1,90 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 704px;
+  }
+  #introduction > p {
+  padding: 5% 18%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 504px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 304px;
+  }
+}
+
+body {
+  background-color: #F5F5F5;
+  color: #151f2a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+  }
+h1, h2 {
+  color: #364F6b;
+}
+h1 {
+  font-weight: 900;
+  font-size: 24px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 16px;
+}
+a {
+  color: #366A6b;
+  text-decoration: none;
+}
+a:hover{
+  color: #364F6b;
+}
+
+/* All the classes are here */
+
+.container {
+  width: 900px;
+  margin: 32px auto;
+}
+.card-white {
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 0px 10px 30px rgba(21, 31, 42, 0.01);
+  padding: 5%;
+  margin: 2%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.text-center {
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+/* All the IDs are here */
+
+#profile-pic {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+}
+
+.socmed-icons {
+  font-size: 24px;
+}
