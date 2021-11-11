@@ -7,9 +7,8 @@ body {
   color: #151f2a;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  line-height: 32px;
   }
-h1, h2 {
+h1, h2, h3 {
   color: #364F6b;
 }
 h1 {
@@ -17,6 +16,10 @@ h1 {
   font-size: 24px;
 }
 h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+h3 {
   font-weight: 600;
   font-size: 16px;
 }
@@ -26,6 +29,9 @@ a {
 }
 a:hover{
   color: #364F6b;
+}
+p {
+ line-height: 32px;
 }
 
 /* All the classes are here */
@@ -45,13 +51,17 @@ a:hover{
     width: 704px;
   }
   #introduction > p {
-  padding: 5% 18%;
+  padding: 5% 17%;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 504px;
+  }
+  #introduction > p {
+  padding: 5% 11%;
+  line-height: normal;
   }
 }
 @media (max-width: 540px) {
@@ -74,6 +84,9 @@ a:hover{
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+.list-inline > li > img {
+  width: 60px;
 }
 .text-center {
   text-align: center;
