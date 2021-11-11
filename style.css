@@ -31,10 +31,14 @@ a:hover{
 /* All the classes are here */
 
 .container {
-  width: 900px;
   margin: 32px auto;
 }
-
+@media (min-width: 960px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 904px;
+  }
+}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
